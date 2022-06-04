@@ -31,7 +31,7 @@ To run Backend, you need to clone the backend and deployer repository
 - Linux:
 ```bash
   $ make privilege
-  $ make install
+  $ make build
 ```
 - Windows:
 ```bash

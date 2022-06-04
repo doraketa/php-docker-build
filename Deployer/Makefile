@@ -13,10 +13,10 @@ to-php: ## go to php container
 	@docker exec -it ${PHP_CONTAINER_NAME} bash
 
 build: ## run containers
-	@docker-compose -p ${PROJECT_NAME} build
+	@docker compose -p ${PROJECT_NAME} build
 
 run: ## run containers
-	@docker-compose -p ${PROJECT_NAME} up -d
+	@docker compose -p ${PROJECT_NAME} up -d
 
 stop: ## stop containers
-	@docker-compose -p ${PROJECT_NAME} stop
+	@docker compose -p ${PROJECT_NAME} stop
