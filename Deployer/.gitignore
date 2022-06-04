@@ -1,0 +1,4 @@
+.idea/
+docker/nginx/ssl/skilldrill.loc.crt
+docker/nginx/ssl/skilldrill.loc.key
+docker/nginx/ssl/skilldrill.loc.cnf
