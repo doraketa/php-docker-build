@@ -1,4 +1,4 @@
-# Развертывание проекта
+# Project deployment
 
 ## Backend
 
@@ -45,35 +45,35 @@ To run Backend, you need to clone the backend and deployer repository
   $ make run
 ```
 
-Windows:
+- Windows:
 ```bash
   $ docker-compose up -d
 ```
 
 When running on Windows, a notification will pop up in the lower right corner of the screen. It is necessary to press the button `Share it!`
 
-Stopping container on Linux:
+- Stopping container on Linux:
 ```
   $ make stop
 ```
 
-Stopping container on Windows:
+- Stopping container on Windows:
 ```bash
   $ docker-compose down
 ```
 
 6. Next (and also after any updating of the project) you need to go to the php container:
 
-Linux:
+- Linux:
 ```bash
   $ make to-php
 ```
 
-Windows:
+- Windows:
 ```bash
   $ docker exec -it php_drill bash
 ```
-Then start it:
+- Then start it:
 ```bash
   $ composer install
 ```
